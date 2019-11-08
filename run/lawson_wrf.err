@@ -1,0 +1,646 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray/6.0.4' is currently not loaded
+Currently Loaded Modulefiles:
+  1) modules/3.2.10.6
+  2) udreg/2.3.2-6.0.4.0_12.2__g2f9c3ee.ari
+  3) ugni/6.0.14-6.0.4.0_14.1__ge7db4a2.ari
+  4) gni-headers/5.0.11-6.0.4.0_7.2__g7136988.ari
+  5) dmapp/7.1.1-6.0.4.0_46.2__gb8abda2.ari
+  6) xpmem/2.2.2-6.0.4.1_18.11__g43b0535.ari
+  7) llm/21.3.446-6.0.4.0_20.1__gbe30105.ari
+  8) nodehealth/5.4.0-6.0.4.0_12.4__g3427370.ari
+  9) system-config/3.4.2456-6.0.4.1_13.1__g56652eb.ari
+ 10) lustre-utils/2.3.5-6.0.4.0_10.2__g3d4bf80.ari
+ 11) slurm/17.02.6-1
+ 12) sysadm/2.4.119-6.0.4.0_14.2__gcab7125.ari
+ 13) Base-opts/2.4.123-6.0.4.0_10.1__g6460790.ari
+ 14) intel/16.0.4.258
+ 15) craype-ivybridge
+ 16) craype-network-aries
+ 17) craype/2.5.12
+ 18) cray-hdf5-parallel/1.10.0.3
+ 19) cray-mpich/7.6.2
+ 20) cray-netcdf-hdf5parallel/4.4.1.1.3
+ 21) cray-parallel-netcdf/1.8.1.3
+ 22) gcc/6.1.0
+ 23) cray-libsci/17.09.1
+ 24) pmi/5.0.12
+ 25) atp/2.1.1
+ 26) rca/2.2.11-6.0.4.0_13.2__g84de67a.ari
+ 27) perftools-base/6.5.2
+ 28) PrgEnv-intel/6.0.4
+ 29) perftools
+ 30) cray-mpich-abi/7.6.2
+[PE_36]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000001000000000000000000000001000000
+[PE_61]: cpumask set to 2 cpus on nid00237, cpumask = 000001000000000000000000000001000000000000000000
+[PE_137]: cpumask set to 2 cpus on nid00240, cpumask = 000100000000000000000000000100000000000000000000
+[PE_161]: cpumask set to 2 cpus on nid00241, cpumask = 000100000000000000000000000100000000000000000000
+[PE_72]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000000001000000000000000000000001
+[PE_168]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000000001000000000000000000000001
+[PE_209]: cpumask set to 2 cpus on nid00243, cpumask = 000100000000000000000000000100000000000000000000
+[PE_97]: cpumask set to 2 cpus on nid00239, cpumask = 000000000001000000000000000000000001000000000000
+[PE_233]: cpumask set to 2 cpus on nid00244, cpumask = 000100000000000000000000000100000000000000000000
+[PE_2]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000000010000000000000000000000010
+[PE_12]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000001000000000000000000000001000000
+[PE_20]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000010000000000000000000000010000000000
+[PE_21]: cpumask set to 2 cpus on nid00235, cpumask = 010000000000000000000000010000000000000000000000
+[PE_1]: cpumask set to 2 cpus on nid00235, cpumask = 000000000001000000000000000000000001000000000000
+[PE_3]: cpumask set to 2 cpus on nid00235, cpumask = 000000000010000000000000000000000010000000000000
+[PE_4]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000000100000000000000000000000100
+[PE_5]: cpumask set to 2 cpus on nid00235, cpumask = 000000000100000000000000000000000100000000000000
+[PE_6]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000001000000000000000000000001000
+[PE_7]: cpumask set to 2 cpus on nid00235, cpumask = 000000001000000000000000000000001000000000000000
+[PE_8]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000010000000000000000000000010000
+[PE_9]: cpumask set to 2 cpus on nid00235, cpumask = 000000010000000000000000000000010000000000000000
+[PE_10]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000100000000000000000000000100000
+[PE_11]: cpumask set to 2 cpus on nid00235, cpumask = 000000100000000000000000000000100000000000000000
+[PE_13]: cpumask set to 2 cpus on nid00235, cpumask = 000001000000000000000000000001000000000000000000
+[PE_14]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000010000000000000000000000010000000
+[PE_16]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000100000000000000000000000100000000
+[PE_18]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000001000000000000000000000001000000000
+[PE_19]: cpumask set to 2 cpus on nid00235, cpumask = 001000000000000000000000001000000000000000000000
+[PE_22]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000100000000000000000000000100000000000
+[PE_23]: cpumask set to 2 cpus on nid00235, cpumask = 100000000000000000000000100000000000000000000000
+[PE_0]: cpumask set to 2 cpus on nid00235, cpumask = 000000000000000000000001000000000000000000000001
+[PE_15]: cpumask set to 2 cpus on nid00235, cpumask = 000010000000000000000000000010000000000000000000
+[PE_17]: cpumask set to 2 cpus on nid00235, cpumask = 000100000000000000000000000100000000000000000000
+[PE_235]: cpumask set to 2 cpus on nid00244, cpumask = 001000000000000000000000001000000000000000000000
+[PE_111]: cpumask set to 2 cpus on nid00239, cpumask = 000010000000000000000000000010000000000000000000
+[PE_216]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000000001000000000000000000000001
+[PE_120]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000000001000000000000000000000001
+[PE_172]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000000100000000000000000000000100
+[PE_163]: cpumask set to 2 cpus on nid00241, cpumask = 001000000000000000000000001000000000000000000000
+[PE_53]: cpumask set to 2 cpus on nid00237, cpumask = 000000000100000000000000000000000100000000000000
+[PE_196]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000000100000000000000000000000100
+[PE_113]: cpumask set to 2 cpus on nid00239, cpumask = 000100000000000000000000000100000000000000000000
+[PE_222]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000001000000000000000000000001000
+[PE_121]: cpumask set to 2 cpus on nid00240, cpumask = 000000000001000000000000000000000001000000000000
+[PE_41]: cpumask set to 2 cpus on nid00236, cpumask = 000100000000000000000000000100000000000000000000
+[PE_179]: cpumask set to 2 cpus on nid00242, cpumask = 000000100000000000000000000000100000000000000000
+[PE_144]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000000001000000000000000000000001
+[PE_54]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000001000000000000000000000001000
+[PE_198]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000001000000000000000000000001000
+[PE_87]: cpumask set to 2 cpus on nid00238, cpumask = 000010000000000000000000000010000000000000000000
+[PE_114]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000001000000000000000000000001000000000
+[PE_226]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000100000000000000000000000100000
+[PE_126]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000001000000000000000000000001000
+[PE_26]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000000010000000000000000000000010
+[PE_181]: cpumask set to 2 cpus on nid00242, cpumask = 000001000000000000000000000001000000000000000000
+[PE_146]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000000010000000000000000000000010
+[PE_70]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000100000000000000000000000100000000000
+[PE_205]: cpumask set to 2 cpus on nid00243, cpumask = 000001000000000000000000000001000000000000000000
+[PE_91]: cpumask set to 2 cpus on nid00238, cpumask = 001000000000000000000000001000000000000000000000
+[PE_115]: cpumask set to 2 cpus on nid00239, cpumask = 001000000000000000000000001000000000000000000000
+[PE_228]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000001000000000000000000000001000000
+[PE_134]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000010000000000000000000000010000000
+[PE_24]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000000001000000000000000000000001
+[PE_184]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000100000000000000000000000100000000
+[PE_150]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000001000000000000000000000001000
+[PE_48]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000000001000000000000000000000001
+[PE_208]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000100000000000000000000000100000000
+[PE_93]: cpumask set to 2 cpus on nid00238, cpumask = 010000000000000000000000010000000000000000000000
+[PE_96]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000000001000000000000000000000001
+[PE_232]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000100000000000000000000000100000000
+[PE_141]: cpumask set to 2 cpus on nid00240, cpumask = 010000000000000000000000010000000000000000000000
+[PE_28]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000000100000000000000000000000100
+[PE_171]: cpumask set to 2 cpus on nid00242, cpumask = 000000000010000000000000000000000010000000000000
+[PE_152]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000010000000000000000000000010000
+[PE_49]: cpumask set to 2 cpus on nid00237, cpumask = 000000000001000000000000000000000001000000000000
+[PE_211]: cpumask set to 2 cpus on nid00243, cpumask = 001000000000000000000000001000000000000000000000
+[PE_74]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000000010000000000000000000000010
+[PE_98]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000000010000000000000000000000010
+[PE_217]: cpumask set to 2 cpus on nid00244, cpumask = 000000000001000000000000000000000001000000000000
+[PE_122]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000000010000000000000000000000010
+[PE_31]: cpumask set to 2 cpus on nid00236, cpumask = 000000001000000000000000000000001000000000000000
+[PE_175]: cpumask set to 2 cpus on nid00242, cpumask = 000000001000000000000000000000001000000000000000
+[PE_159]: cpumask set to 2 cpus on nid00241, cpumask = 000010000000000000000000000010000000000000000000
+[PE_50]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000000010000000000000000000000010
+[PE_215]: cpumask set to 2 cpus on nid00243, cpumask = 100000000000000000000000100000000000000000000000
+[PE_78]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000001000000000000000000000001000
+[PE_99]: cpumask set to 2 cpus on nid00239, cpumask = 000000000010000000000000000000000010000000000000
+[PE_218]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000000010000000000000000000000010
+[PE_124]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000000100000000000000000000000100
+[PE_33]: cpumask set to 2 cpus on nid00236, cpumask = 000000010000000000000000000000010000000000000000
+[PE_177]: cpumask set to 2 cpus on nid00242, cpumask = 000000010000000000000000000000010000000000000000
+[PE_160]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000100000000000000000000000100000000
+[PE_51]: cpumask set to 2 cpus on nid00237, cpumask = 000000000010000000000000000000000010000000000000
+[PE_192]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000000001000000000000000000000001
+[PE_79]: cpumask set to 2 cpus on nid00238, cpumask = 000000001000000000000000000000001000000000000000
+[PE_100]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000000100000000000000000000000100
+[PE_219]: cpumask set to 2 cpus on nid00244, cpumask = 000000000010000000000000000000000010000000000000
+[PE_125]: cpumask set to 2 cpus on nid00240, cpumask = 000000000100000000000000000000000100000000000000
+[PE_34]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000100000000000000000000000100000
+[PE_178]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000100000000000000000000000100000
+[PE_164]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000010000000000000000000000010000000000
+[PE_52]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000000100000000000000000000000100
+[PE_193]: cpumask set to 2 cpus on nid00243, cpumask = 000000000001000000000000000000000001000000000000
+[PE_81]: cpumask set to 2 cpus on nid00238, cpumask = 000000010000000000000000000000010000000000000000
+[PE_101]: cpumask set to 2 cpus on nid00239, cpumask = 000000000100000000000000000000000100000000000000
+[PE_220]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000000100000000000000000000000100
+[PE_128]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000010000000000000000000000010000
+[PE_35]: cpumask set to 2 cpus on nid00236, cpumask = 000000100000000000000000000000100000000000000000
+[PE_180]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000001000000000000000000000001000000
+[PE_145]: cpumask set to 2 cpus on nid00241, cpumask = 000000000001000000000000000000000001000000000000
+[PE_57]: cpumask set to 2 cpus on nid00237, cpumask = 000000010000000000000000000000010000000000000000
+[PE_194]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000000010000000000000000000000010
+[PE_82]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000100000000000000000000000100000
+[PE_102]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000001000000000000000000000001000
+[PE_221]: cpumask set to 2 cpus on nid00244, cpumask = 000000000100000000000000000000000100000000000000
+[PE_129]: cpumask set to 2 cpus on nid00240, cpumask = 000000010000000000000000000000010000000000000000
+[PE_42]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000001000000000000000000000001000000000
+[PE_183]: cpumask set to 2 cpus on nid00242, cpumask = 000010000000000000000000000010000000000000000000
+[PE_147]: cpumask set to 2 cpus on nid00241, cpumask = 000000000010000000000000000000000010000000000000
+[PE_58]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000100000000000000000000000100000
+[PE_195]: cpumask set to 2 cpus on nid00243, cpumask = 000000000010000000000000000000000010000000000000
+[PE_83]: cpumask set to 2 cpus on nid00238, cpumask = 000000100000000000000000000000100000000000000000
+[PE_103]: cpumask set to 2 cpus on nid00239, cpumask = 000000001000000000000000000000001000000000000000
+[PE_223]: cpumask set to 2 cpus on nid00244, cpumask = 000000001000000000000000000000001000000000000000
+[PE_130]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000000100000000000000000000000100000
+[PE_47]: cpumask set to 2 cpus on nid00236, cpumask = 100000000000000000000000100000000000000000000000
+[PE_185]: cpumask set to 2 cpus on nid00242, cpumask = 000100000000000000000000000100000000000000000000
+[PE_148]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000000100000000000000000000000100
+[PE_59]: cpumask set to 2 cpus on nid00237, cpumask = 000000100000000000000000000000100000000000000000
+[PE_199]: cpumask set to 2 cpus on nid00243, cpumask = 000000001000000000000000000000001000000000000000
+[PE_86]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000010000000000000000000000010000000
+[PE_104]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000010000000000000000000000010000
+[PE_224]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000000010000000000000000000000010000
+[PE_132]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000001000000000000000000000001000000
+[PE_25]: cpumask set to 2 cpus on nid00236, cpumask = 000000000001000000000000000000000001000000000000
+[PE_186]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000001000000000000000000000001000000000
+[PE_149]: cpumask set to 2 cpus on nid00241, cpumask = 000000000100000000000000000000000100000000000000
+[PE_60]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000001000000000000000000000001000000
+[PE_200]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000010000000000000000000000010000
+[PE_88]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000100000000000000000000000100000000
+[PE_105]: cpumask set to 2 cpus on nid00239, cpumask = 000000010000000000000000000000010000000000000000
+[PE_225]: cpumask set to 2 cpus on nid00244, cpumask = 000000010000000000000000000000010000000000000000
+[PE_133]: cpumask set to 2 cpus on nid00240, cpumask = 000001000000000000000000000001000000000000000000
+[PE_27]: cpumask set to 2 cpus on nid00236, cpumask = 000000000010000000000000000000000010000000000000
+[PE_187]: cpumask set to 2 cpus on nid00242, cpumask = 001000000000000000000000001000000000000000000000
+[PE_151]: cpumask set to 2 cpus on nid00241, cpumask = 000000001000000000000000000000001000000000000000
+[PE_64]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000100000000000000000000000100000000
+[PE_201]: cpumask set to 2 cpus on nid00243, cpumask = 000000010000000000000000000000010000000000000000
+[PE_89]: cpumask set to 2 cpus on nid00238, cpumask = 000100000000000000000000000100000000000000000000
+[PE_106]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000000100000000000000000000000100000
+[PE_227]: cpumask set to 2 cpus on nid00244, cpumask = 000000100000000000000000000000100000000000000000
+[PE_135]: cpumask set to 2 cpus on nid00240, cpumask = 000010000000000000000000000010000000000000000000
+[PE_29]: cpumask set to 2 cpus on nid00236, cpumask = 000000000100000000000000000000000100000000000000
+[PE_190]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000100000000000000000000000100000000000
+[PE_153]: cpumask set to 2 cpus on nid00241, cpumask = 000000010000000000000000000000010000000000000000
+[PE_65]: cpumask set to 2 cpus on nid00237, cpumask = 000100000000000000000000000100000000000000000000
+[PE_202]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000000100000000000000000000000100000
+[PE_92]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000010000000000000000000000010000000000
+[PE_107]: cpumask set to 2 cpus on nid00239, cpumask = 000000100000000000000000000000100000000000000000
+[PE_229]: cpumask set to 2 cpus on nid00244, cpumask = 000001000000000000000000000001000000000000000000
+[PE_136]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000000100000000000000000000000100000000
+[PE_30]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000001000000000000000000000001000
+[PE_173]: cpumask set to 2 cpus on nid00242, cpumask = 000000000100000000000000000000000100000000000000
+[PE_154]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000000100000000000000000000000100000
+[PE_66]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000001000000000000000000000001000000000
+[PE_203]: cpumask set to 2 cpus on nid00243, cpumask = 000000100000000000000000000000100000000000000000
+[PE_95]: cpumask set to 2 cpus on nid00238, cpumask = 100000000000000000000000100000000000000000000000
+[PE_108]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000001000000000000000000000001000000
+[PE_230]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000000010000000000000000000000010000000
+[PE_138]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000001000000000000000000000001000000000
+[PE_32]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000000010000000000000000000000010000
+[PE_174]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000001000000000000000000000001000
+[PE_155]: cpumask set to 2 cpus on nid00241, cpumask = 000000100000000000000000000000100000000000000000
+[PE_67]: cpumask set to 2 cpus on nid00237, cpumask = 001000000000000000000000001000000000000000000000
+[PE_204]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000001000000000000000000000001000000
+[PE_73]: cpumask set to 2 cpus on nid00238, cpumask = 000000000001000000000000000000000001000000000000
+[PE_109]: cpumask set to 2 cpus on nid00239, cpumask = 000001000000000000000000000001000000000000000000
+[PE_231]: cpumask set to 2 cpus on nid00244, cpumask = 000010000000000000000000000010000000000000000000
+[PE_139]: cpumask set to 2 cpus on nid00240, cpumask = 001000000000000000000000001000000000000000000000
+[PE_37]: cpumask set to 2 cpus on nid00236, cpumask = 000001000000000000000000000001000000000000000000
+[PE_176]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000010000000000000000000000010000
+[PE_156]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000001000000000000000000000001000000
+[PE_68]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000010000000000000000000000010000000000
+[PE_206]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000000010000000000000000000000010000000
+[PE_75]: cpumask set to 2 cpus on nid00238, cpumask = 000000000010000000000000000000000010000000000000
+[PE_110]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000010000000000000000000000010000000
+[PE_234]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000001000000000000000000000001000000000
+[PE_140]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000010000000000000000000000010000000000
+[PE_38]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000010000000000000000000000010000000
+[PE_182]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000010000000000000000000000010000000
+[PE_157]: cpumask set to 2 cpus on nid00241, cpumask = 000001000000000000000000000001000000000000000000
+[PE_69]: cpumask set to 2 cpus on nid00237, cpumask = 010000000000000000000000010000000000000000000000
+[PE_207]: cpumask set to 2 cpus on nid00243, cpumask = 000010000000000000000000000010000000000000000000
+[PE_76]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000000100000000000000000000000100
+[PE_112]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000000100000000000000000000000100000000
+[PE_236]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000010000000000000000000000010000000000
+[PE_142]: cpumask set to 2 cpus on nid00240, cpumask = 000000000000100000000000000000000000100000000000
+[PE_39]: cpumask set to 2 cpus on nid00236, cpumask = 000010000000000000000000000010000000000000000000
+[PE_188]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000010000000000000000000000010000000000
+[PE_158]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000000010000000000000000000000010000000
+[PE_71]: cpumask set to 2 cpus on nid00237, cpumask = 100000000000000000000000100000000000000000000000
+[PE_210]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000001000000000000000000000001000000000
+[PE_77]: cpumask set to 2 cpus on nid00238, cpumask = 000000000100000000000000000000000100000000000000
+[PE_116]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000010000000000000000000000010000000000
+[PE_237]: cpumask set to 2 cpus on nid00244, cpumask = 010000000000000000000000010000000000000000000000
+[PE_143]: cpumask set to 2 cpus on nid00240, cpumask = 100000000000000000000000100000000000000000000000
+[PE_40]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000000100000000000000000000000100000000
+[PE_189]: cpumask set to 2 cpus on nid00242, cpumask = 010000000000000000000000010000000000000000000000
+[PE_162]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000001000000000000000000000001000000000
+[PE_55]: cpumask set to 2 cpus on nid00237, cpumask = 000000001000000000000000000000001000000000000000
+[PE_212]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000010000000000000000000000010000000000
+[PE_80]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000000010000000000000000000000010000
+[PE_117]: cpumask set to 2 cpus on nid00239, cpumask = 010000000000000000000000010000000000000000000000
+[PE_238]: cpumask set to 2 cpus on nid00244, cpumask = 000000000000100000000000000000000000100000000000
+[PE_123]: cpumask set to 2 cpus on nid00240, cpumask = 000000000010000000000000000000000010000000000000
+[PE_43]: cpumask set to 2 cpus on nid00236, cpumask = 001000000000000000000000001000000000000000000000
+[PE_191]: cpumask set to 2 cpus on nid00242, cpumask = 100000000000000000000000100000000000000000000000
+[PE_165]: cpumask set to 2 cpus on nid00241, cpumask = 010000000000000000000000010000000000000000000000
+[PE_56]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000000010000000000000000000000010000
+[PE_213]: cpumask set to 2 cpus on nid00243, cpumask = 010000000000000000000000010000000000000000000000
+[PE_84]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000000001000000000000000000000001000000
+[PE_118]: cpumask set to 2 cpus on nid00239, cpumask = 000000000000100000000000000000000000100000000000
+[PE_239]: cpumask set to 2 cpus on nid00244, cpumask = 100000000000000000000000100000000000000000000000
+[PE_127]: cpumask set to 2 cpus on nid00240, cpumask = 000000001000000000000000000000001000000000000000
+[PE_44]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000010000000000000000000000010000000000
+[PE_169]: cpumask set to 2 cpus on nid00242, cpumask = 000000000001000000000000000000000001000000000000
+[PE_166]: cpumask set to 2 cpus on nid00241, cpumask = 000000000000100000000000000000000000100000000000
+[PE_62]: cpumask set to 2 cpus on nid00237, cpumask = 000000000000000010000000000000000000000010000000
+[PE_214]: cpumask set to 2 cpus on nid00243, cpumask = 000000000000100000000000000000000000100000000000
+[PE_85]: cpumask set to 2 cpus on nid00238, cpumask = 000001000000000000000000000001000000000000000000
+[PE_119]: cpumask set to 2 cpus on nid00239, cpumask = 100000000000000000000000100000000000000000000000
+[PE_131]: cpumask set to 2 cpus on nid00240, cpumask = 000000100000000000000000000000100000000000000000
+[PE_45]: cpumask set to 2 cpus on nid00236, cpumask = 010000000000000000000000010000000000000000000000
+[PE_170]: cpumask set to 2 cpus on nid00242, cpumask = 000000000000000000000010000000000000000000000010
+[PE_167]: cpumask set to 2 cpus on nid00241, cpumask = 100000000000000000000000100000000000000000000000
+[PE_63]: cpumask set to 2 cpus on nid00237, cpumask = 000010000000000000000000000010000000000000000000
+[PE_197]: cpumask set to 2 cpus on nid00243, cpumask = 000000000100000000000000000000000100000000000000
+[PE_90]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000001000000000000000000000001000000000
+[PE_46]: cpumask set to 2 cpus on nid00236, cpumask = 000000000000100000000000000000000000100000000000
+[PE_94]: cpumask set to 2 cpus on nid00238, cpumask = 000000000000100000000000000000000000100000000000
+PE 0: MPICH processor detected:
+PE 0:   Intel Ivy Bridge (6:62:4) (family:model:stepping)
+MPI VERSION    : CRAY MPICH version 7.6.2 (ANL base 3.2)
+MPI BUILD INFO : Built Wed Aug 23 18:49:57 2017 (git hash 34d433786) MT-G
+PE 0: MPICH environment settings:
+PE 0:   MPICH_ENV_DISPLAY          = 1
+PE 0:   MPICH_VERSION_DISPLAY      = 1
+PE 0:   MPICH_ABORT_ON_ERROR       = 1
+PE 0:   MPICH_CPUMASK_DISPLAY      = 1
+PE 0:   MPICH_STATS_DISPLAY        = 0
+PE 0:   MPICH_RANK_REORDER_METHOD  = 1
+PE 0:   MPICH_RANK_REORDER_DISPLAY = 0
+PE 0:   MPICH_DYNAMIC_VCS          = ENABLED
+PE 0:   MPICH_MEMCPY_MEM_CHECK     = 0
+PE 0:   MPICH_USE_SYSTEM_MEMCPY    = 0
+PE 0:   MPICH_OPTIMIZED_MEMCPY     = 1
+PE 0:   MPICH_ALLOC_MEM_PG_SZ      = 4096
+PE 0:   MPICH_ALLOC_MEM_POLICY     = PREFERRED
+PE 0:   MPICH_ALLOC_MEM_AFFINITY   = SYS_DEFAULT
+PE 0:   MPICH_INTERNAL_MEM_AFFINITY= SYS_DEFAULT
+PE 0:   MPICH_NO_BUFFER_ALIAS_CHECK= 0
+PE 0:   MPICH_COLL_SYNC            = 0
+PE 0:   MPICH_MSG_QUEUE_DBG        = 0
+PE 0: MPICH/MPMD environment settings:
+PE 0:   MPICH_DMAPP_APP_IS_WORLD   = 0
+PE 0: MPICH/GPU environment settings:
+PE 0:   MPICH_RDMA_ENABLED_CUDA    = 0
+PE 0:   MPICH_G2G_PIPELINE         = 0
+PE 0:   MPICH_NO_GPU_DIRECT        = 0
+PE 0: MPICH/SMP environment settings:
+PE 0:   MPICH_SMP_SINGLE_COPY_OFF  = 0
+PE 0:   MPICH_SMP_SINGLE_COPY_SIZE = 8192
+PE 0: MPICH/GNI environment settings:
+PE 0:           MPICH_GNI_RECV_CQ_SIZE = 40960
+PE 0:          MPICH_GNI_LOCAL_CQ_SIZE = 8192
+PE 0:            MPICH_GNI_DEBUG_LEVEL = 0
+PE 0:    MPICH_GNI_MAX_VSHORT_MSG_SIZE = 8136
+PE 0:     MPICH_GNI_MAX_EAGER_MSG_SIZE = 8192
+PE 0:               MPICH_GNI_NUM_BUFS = 64
+PE 0:             MPICH_GNI_NUM_MBOXES = -1
+PE 0:       MPICH_GNI_MBOXES_PER_BLOCK = 4096
+PE 0:         MPICH_GNI_RDMA_THRESHOLD = 2048
+PE 0:          MPICH_GNI_RCVCQ_PROCNUM = 1
+PE 0:    MPICH_GNI_NDREG_ENTRIES(req.) = 149
+PE 0:       MPICH_GNI_MAX_PENDING_GETS = 49
+PE 0:            MPICH_GNI_GET_MAXSIZE = 4194304
+PE 0:          MPICH_GNI_NDREG_MAXSIZE = 16777216
+PE 0:        MPICH_GNI_MALLOC_FALLBACK = 0
+PE 0:          MPICH_GNI_NDREG_LAZYMEM = LAZY_ALL
+PE 0:          MPICH_GNI_DMAPP_INTEROP = DISABLED
+PE 0:           MPICH_GNI_DYNAMIC_CONN = disabled
+PE 0:        MPICH_GNI_MAX_NUM_RETRIES = 16
+PE 0:              MPICH_GNI_FORK_MODE = PARTCOPY
+PE 0:         MPICH_GNI_MBOX_PLACEMENT = DEFAULT
+PE 0:        MPICH_GNI_VC_MSG_PROTOCOL = MBOX
+PE 0:      MPICH_GNI_BTE_MULTI_CHANNEL = ENABLED
+PE 0:           MPICH_GNI_LMT_GET_PATH = ENABLED
+PE 0:               MPICH_GNI_LMT_PATH = ENABLED
+PE 0:     MPICH_NEMESIS_ASYNC_PROGRESS = 0
+PE 0:  MPICH_NEMESIS_ON_NODE_ASYNC_OPT = -1
+PE 0: MPICH_GNI_ASYNC_PROGRESS_TIMEOUT = -1
+PE 0:       MPICH_GNI_DATAGRAM_TIMEOUT = -1
+PE 0:            MPICH_GNI_FMA_SHARING = ENABLED
+PE 0:            MPICH_GNI_MDD_SHARING = ENABLED
+PE 0:          MPICH_GNI_HUGEPAGE_SIZE = 2M
+PE 0:          MPICH_GNI_USE_PCI_IOMMU = 0
+PE 0:           MPICH_GNI_ROUTING_MODE = ADAPTIVE_0
+PE 0:    MPICH_GNI_USE_UNASSIGNED_CPUS = ENABLED
+PE 0:        MPICH_GNI_MEM_DEBUG_FNAME = 
+PE 0: MPICH/COLLECTIVE environment settings:
+PE 0:   MPICH_COLL_OPT_OFF         = 0
+PE 0:   MPICH_COLL_BAL_INJECTION   = auto
+PE 0:   MPICH_USE_DMAPP_COLL       = 0
+PE 0:   MPICH_DMAPP_COLL_RADIX     = 64
+PE 0:   MPICH_DMAPP_HW_CE          = Disabled
+PE 0:   MPICH_DMAPP_A2A_ARIES      = 0
+PE 0:   MPICH_BCAST_ONLY_TREE      = 1
+PE 0:   MPICH_BCAST_INTERNODE_RADIX= 4
+PE 0:   MPICH_BCAST_INTRANODE_RADIX= 4
+PE 0:   MPICH_ALLTOALL_SHORT_MSG   = 32-2048
+PE 0:   MPICH_ALLTOALLV_THROTTLE   = 8
+PE 0:   MPICH_ALLGATHER_VSHORT_MSG = 1024-4096
+PE 0:   MPICH_ALLGATHERV_VSHORT_MSG= 1024-4096
+PE 0:   MPICH_GATHERV_SHORT_MSG    = 16384
+PE 0:  MPICH_IGATHERV_RAND_COMMSIZE= 2048
+PE 0:  MPICH_IGATHERV_RAND_RECVLIST= 0
+PE 0:   MPICH_SCATTERV_SHORT_MSG   = 2048-8192
+PE 0:   MPICH_SCATTERV_SYNCHRONOUS = 0
+PE 0:  MPICH_ALLREDUCE_MAX_SMP_SIZE= 262144
+PE 0:   MPICH_ALLREDUCE_BLK_SIZE   = 716800
+PE 0:   MPICH_ALLREDUCE_NO_SMP     = 0
+PE 0:   MPICH_REDUCE_NO_SMP        = 0
+PE 0:   MPICH_REDSCAT_COMMUTATIVE_LONG_MSG_SIZE = 524288
+PE 0:   MPICH_REDSCAT_MAX_COMMSIZE = 6144
+PE 0:   MPICH_SHARED_MEM_COLL_OPT  = 1
+PE 0: MPICH_SHARED_MEM_COLL_NCELLS = 8
+PE 0: MPICH_SHARED_MEM_COLL_CELLSZ = 256
+PE 0: MPICH/RMA environment settings:
+PE 0:   MPICH_RMA_FALLBACK         = 0
+PE 0: MPICH MPIIO environment settings:
+PE 0:   MPICH_MPIIO_HINTS_DISPLAY                 = 1
+PE 0:   MPICH_MPIIO_HINTS                         = wrfout*:striping_factor=4,cb_nodes=4
+PE 0:   MPICH_MPIIO_ABORT_ON_RW_ERROR             = disable
+PE 0:   MPICH_MPIIO_CB_ALIGN                      = 2
+PE 0:   MPICH_MPIIO_DVS_MAXNODES                  = -1
+PE 0:   MPICH_MPIIO_AGGREGATOR_PLACEMENT_DISPLAY  = 0
+PE 0:   MPICH_MPIIO_AGGREGATOR_PLACEMENT_STRIDE   = -1
+PE 0:   MPICH_MPIIO_MAX_NUM_IRECV                 = 50
+PE 0:   MPICH_MPIIO_MAX_NUM_ISEND                 = 50
+PE 0:   MPICH_MPIIO_MAX_SIZE_ISEND                = 10485760
+PE 0: MPICH MPIIO statistics environment settings:
+PE 0:   MPICH_MPIIO_STATS                         = 0
+PE 0:   MPICH_MPIIO_TIMERS                        = 0
+PE 0:   MPICH_MPIIO_WRITE_EXIT_BARRIER            = 1
+PE 0: MPICH Thread Safety settings:
+PE 0:   MPICH_MAX_THREAD_SAFETY    = serialized
+PE 0:   MPICH_OPT_THREAD_SYNC      = 1
+PE 0:   rank 0 required = single, was provided = single
+PE 0: MPICH CRAY memory report settings:
+PE 0:   MPICH_MEMORY_REPORT      = 0
+PE 0:   MPICH_MEMORY_REPORT_FILE = stderr
+PE 0: MPICH/UGNI COLLECTIVE environment settings:
+PE 0:   MPICH_GNI_COLL_OPT_OFF     = 0
+PE 0:   MPICH_GNI_CT_OFF           = 0
+PE 0:   MPICH_GNI_A2A_ROUTING_MODE = ADAPTIVE_1
+PE 0:   MPICH_GNI_A2A_BLK_SIZE     = 2048-65536
+PE 0:   MPICH_GNI_A2A_FMA_SYNC_FREQ= 1-1024
+PE 0:   MPICH_GNI_A2A_BTE_SYNC_FREQ= 8-1024
+PE 0:   MPICH_GNI_A2A_BTE_THRESHOLD= 4096-8192
+PE 0: MPICH_NETWORK_BUFFER_COLL_OPT= 0
+ starting wrf task           25  of          240
+ starting wrf task           27  of          240
+ starting wrf task           28  of          240
+ starting wrf task           31  of          240
+ starting wrf task           32  of          240
+ starting wrf task           33  of          240
+ starting wrf task           34  of          240
+ starting wrf task           35  of          240
+ starting wrf task           36  of          240
+ starting wrf task           38  of          240
+ starting wrf task           39  of          240
+ starting wrf task           40  of          240
+ starting wrf task           41  of          240
+ starting wrf task           42  of          240
+ starting wrf task           43  of          240
+ starting wrf task           44  of          240
+ starting wrf task           45  of          240
+ starting wrf task           46  of          240
+ starting wrf task           47  of          240
+ starting wrf task           24  of          240
+ starting wrf task           26  of          240
+ starting wrf task          192  of          240
+ starting wrf task           29  of          240
+ starting wrf task          199  of          240
+ starting wrf task           30  of          240
+ starting wrf task          200  of          240
+ starting wrf task           37  of          240
+ starting wrf task          201  of          240
+ starting wrf task          203  of          240
+ starting wrf task          204  of          240
+ starting wrf task          205  of          240
+ starting wrf task          207  of          240
+ starting wrf task          209  of          240
+ starting wrf task          210  of          240
+ starting wrf task          211  of          240
+ starting wrf task          212  of          240
+ starting wrf task          213  of          240
+ starting wrf task          214  of          240
+ starting wrf task          215  of          240
+ starting wrf task          193  of          240
+ starting wrf task          194  of          240
+ starting wrf task          195  of          240
+ starting wrf task          196  of          240
+ starting wrf task          197  of          240
+ starting wrf task          198  of          240
+ starting wrf task          202  of          240
+ starting wrf task          206  of          240
+ starting wrf task          208  of          240
+ starting wrf task          144  of          240
+ starting wrf task          146  of          240
+ starting wrf task          147  of          240
+ starting wrf task          148  of          240
+ starting wrf task          150  of          240
+ starting wrf task          217  of          240
+ starting wrf task          151  of          240
+ starting wrf task          219  of          240
+ starting wrf task          152  of          240
+ starting wrf task          221  of          240
+ starting wrf task          153  of          240
+ starting wrf task          222  of          240
+ starting wrf task          154  of          240
+ starting wrf task          224  of          240
+ starting wrf task          155  of          240
+ starting wrf task          225  of          240
+ starting wrf task          156  of          240
+ starting wrf task          226  of          240
+ starting wrf task          157  of          240
+ starting wrf task          227  of          240
+ starting wrf task          158  of          240
+ starting wrf task          228  of          240
+ starting wrf task          159  of          240
+ starting wrf task          229  of          240
+ starting wrf task          160  of          240
+ starting wrf task          230  of          240
+ starting wrf task          231  of          240
+ starting wrf task          161  of          240
+ starting wrf task          232  of          240
+ starting wrf task          162  of          240
+ starting wrf task          233  of          240
+ starting wrf task          163  of          240
+ starting wrf task          234  of          240
+ starting wrf task          164  of          240
+ starting wrf task          165  of          240
+ starting wrf task          235  of          240
+ starting wrf task          166  of          240
+ starting wrf task          236  of          240
+ starting wrf task          167  of          240
+ starting wrf task          145  of          240
+ starting wrf task          237  of          240
+ starting wrf task          149  of          240
+ starting wrf task          238  of          240
+ starting wrf task          239  of          240
+ starting wrf task          216  of          240
+ starting wrf task          218  of          240
+ starting wrf task          220  of          240
+ starting wrf task          223  of          240
+ starting wrf task          169  of          240
+ starting wrf task          170  of          240
+ starting wrf task          171  of          240
+ starting wrf task          172  of          240
+ starting wrf task          173  of          240
+ starting wrf task          175  of          240
+ starting wrf task          176  of          240
+ starting wrf task          177  of          240
+ starting wrf task          178  of          240
+ starting wrf task          179  of          240
+ starting wrf task          180  of          240
+ starting wrf task          181  of          240
+ starting wrf task          182  of          240
+ starting wrf task          183  of          240
+ starting wrf task          184  of          240
+ starting wrf task          185  of          240
+ starting wrf task          186  of          240
+ starting wrf task          187  of          240
+ starting wrf task          188  of          240
+ starting wrf task          189  of          240
+ starting wrf task          190  of          240
+ starting wrf task          191  of          240
+ starting wrf task          168  of          240
+ starting wrf task          174  of          240
+ starting wrf task          101  of          240
+ starting wrf task          105  of          240
+ starting wrf task          107  of          240
+ starting wrf task          108  of          240
+ starting wrf task          114  of          240
+ starting wrf task          115  of          240
+ starting wrf task          117  of          240
+ starting wrf task          118  of          240
+ starting wrf task          119  of          240
+ starting wrf task           96  of          240
+ starting wrf task           97  of          240
+ starting wrf task           98  of          240
+ starting wrf task           99  of          240
+ starting wrf task          100  of          240
+ starting wrf task          102  of          240
+ starting wrf task          103  of          240
+ starting wrf task          104  of          240
+ starting wrf task          106  of          240
+ starting wrf task          109  of          240
+ starting wrf task          110  of          240
+ starting wrf task          111  of          240
+ starting wrf task          112  of          240
+ starting wrf task          113  of          240
+ starting wrf task          116  of          240
+ starting wrf task            4  of          240
+ starting wrf task            6  of          240
+ starting wrf task            7  of          240
+ starting wrf task           10  of          240
+ starting wrf task           13  of          240
+ starting wrf task           48  of          240
+ starting wrf task           15  of          240
+ starting wrf task           56  of          240
+ starting wrf task           16  of          240
+ starting wrf task           61  of          240
+ starting wrf task           18  of          240
+ starting wrf task           19  of          240
+ starting wrf task           64  of          240
+ starting wrf task           65  of          240
+ starting wrf task           20  of          240
+ starting wrf task           71  of          240
+ starting wrf task           21  of          240
+ starting wrf task           49  of          240
+ starting wrf task            0  of          240
+ starting wrf task           50  of          240
+ starting wrf task            1  of          240
+ starting wrf task           51  of          240
+ starting wrf task            2  of          240
+ starting wrf task           52  of          240
+ starting wrf task            3  of          240
+ starting wrf task           53  of          240
+ starting wrf task            5  of          240
+ starting wrf task           54  of          240
+ starting wrf task            8  of          240
+ starting wrf task           55  of          240
+ starting wrf task            9  of          240
+ starting wrf task           57  of          240
+ starting wrf task           11  of          240
+ starting wrf task           58  of          240
+ starting wrf task           12  of          240
+ starting wrf task           14  of          240
+ starting wrf task           59  of          240
+ starting wrf task           17  of          240
+ starting wrf task           60  of          240
+ starting wrf task           22  of          240
+ starting wrf task           62  of          240
+ starting wrf task           23  of          240
+ starting wrf task           63  of          240
+ starting wrf task           66  of          240
+ starting wrf task           67  of          240
+ starting wrf task           68  of          240
+ starting wrf task           69  of          240
+ starting wrf task           70  of          240
+ starting wrf task          123  of          240
+ starting wrf task          125  of          240
+ starting wrf task          127  of          240
+ starting wrf task          128  of          240
+ starting wrf task          130  of          240
+ starting wrf task          131  of          240
+ starting wrf task          133  of          240
+ starting wrf task          136  of          240
+ starting wrf task          140  of          240
+ starting wrf task          143  of          240
+ starting wrf task          120  of          240
+ starting wrf task          121  of          240
+ starting wrf task          122  of          240
+ starting wrf task          124  of          240
+ starting wrf task          126  of          240
+ starting wrf task          129  of          240
+ starting wrf task          132  of          240
+ starting wrf task          134  of          240
+ starting wrf task          135  of          240
+ starting wrf task          137  of          240
+ starting wrf task          138  of          240
+ starting wrf task          139  of          240
+ starting wrf task          141  of          240
+ starting wrf task          142  of          240
+ starting wrf task           74  of          240
+ starting wrf task           75  of          240
+ starting wrf task           76  of          240
+ starting wrf task           78  of          240
+ starting wrf task           79  of          240
+ starting wrf task           80  of          240
+ starting wrf task           81  of          240
+ starting wrf task           82  of          240
+ starting wrf task           83  of          240
+ starting wrf task           86  of          240
+ starting wrf task           88  of          240
+ starting wrf task           89  of          240
+ starting wrf task           91  of          240
+ starting wrf task           92  of          240
+ starting wrf task           72  of          240
+ starting wrf task           73  of          240
+ starting wrf task           77  of          240
+ starting wrf task           84  of          240
+ starting wrf task           85  of          240
+ starting wrf task           87  of          240
+ starting wrf task           90  of          240
+ starting wrf task           93  of          240
+ starting wrf task           94  of          240
+ starting wrf task           95  of          240
+
+real	8m53.185s
+user	0m0.020s
+sys	0m0.068s
